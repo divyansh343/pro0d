@@ -1,183 +1,222 @@
-import aauMin from "@/assets/icons/aau.min.webp";
-import aau from "@/assets/icons/aau.webp";
-import enseeihtMin from "@/assets/icons/enseeiht.min.webp";
-import enseeiht from "@/assets/icons/enseeiht.webp";
-import escapeMin from "@/assets/icons/escape.min.webp";
-import escape from "@/assets/icons/escape.webp";
-import tauniqoMin from "@/assets/icons/tauniqo.min.webp";
-import tauniqo from "@/assets/icons/tauniqo.webp";
-import kanopMin from "@/assets/icons/kanop.min.webp";
-import kanop from "@/assets/icons/kanop.webp";
-import lfdcMin from "@/assets/icons/lfdc.min.webp";
-import lfdc from "@/assets/icons/lfdc.webp";
+import seinc from '@/assets/icons/seinc.jpg';
+import jtr from '@/assets/icons/jtr.png';
+import txr from '@/assets/icons/txr.png';
+import openjobs from '@/assets/icons/open-jobs.png';
+import bodo from '@/assets/icons/bodo.png';
+import airdrop from '@/assets/icons/airdrop-alert.png';
+import tradeos from '@/assets/icons/tradeos.webp';
+import suprr from '@/assets/icons/suprr.png';
+import radio from '@/assets/icons/radio.png';
+import rss from '@/assets/icons/rss.png';
+import google from '@/assets/icons/google.jpg';
 
 const details = {
   name: {
-    first: "Elliot",
-    last: "Négrel-Jerzy",
-    nickname: "BSoDium",
+    first: 'Divyansh',
+    last: 'Pal',
+    nickname: 'dangersdAmmo',
   },
-  title: "Software Engineer",
-  biography: "Skilled **full-stack developer** with expertise in diverse programming languages and frameworks. Proven ability to deliver impactful projects on GitHub, fostering a **collaborative environment**. Adept at tackling **complex challenges** and thriving in team settings. Seeking to leverage skills in a dynamic role.",
+  title: 'Full Stack Engineer',
+  biography:
+    'Full Stack Engineer with a passion for building scalable web applications and AI-driven solutions. Proficient in Next.js, React, Node.js, and AWS, with experience developing business automation tools and AI-integrated platforms. Adept at working across all development layers, optimizing performance, and integrating cloud-based technologies like AWS and Cloudflare to enhance efficiency.',
   education: [
     {
-      school: "ENSEEIHT",
-      url: "https://www.enseeiht.fr/en/index.html",
-      icon: enseeiht,
-      iconMin: enseeihtMin,
-      location: "Toulouse, France",
-      degree: "Master's degree in engineering",
-      major: "Computer Science and Applied Mathematics",
-      start: "Sep 2020",
-      end: "May 2023",
+      school: 'Raja Shankar Shah University',
+      location: 'Chhindwara, MP',
+      degree: 'Bachelor of Science',
+      major: 'Computer Applications',
+      icon: rss,
+      start: 'Aug 2020',
+      end: 'Apr 2024',
+      description:
+        'Focus: Computer Applications, Algorithms & Data Structures. Worked on real-world projects, including AI-driven tools and web applications.',
     },
     {
-      school: "AAU Klagenfurt",
-      url: "https://www.aau.at/en/",
-      icon: aau,
-      iconMin: aauMin,
-      location: "Klagenfurt, Austria",
-      degree: "Master's degree in computer science",
-      major: "Computer Graphics and Vision",
-      start: "Sep 2022",
-      end: "Mar 2023",
-    },
-    {
-      school: "CPGE Lycée Déodat de Séverac",
-      url: "https://dossier.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=4052",
-      location: "Toulouse, France",
-      degree: "PTSI/PSI* (Bachelor equivalent)",
-      major: "Mathematics and Physics",
-      start: "Sep 2018",
-      end: "Jul 2020",
+      school: 'Google',
+      location: 'Online',
+      degree: 'Certification',
+      major: 'Digital Marketing (Unlocked Course)',
+      icon: google, // Replace with your imported or defined icon
+      start: 'Jul 2023',
+      end: 'Aug 2023',
+      description:
+        'Completed Google Digital Unlocked course covering SEO, SEM, analytics, content marketing, and advertising fundamentals.',
     },
   ],
   experience: [
     {
-      company: "Kanop",
-      url: "https://www.kanop.io/",
-      icon: kanop,
-      iconMin: kanopMin,
-      location: "Barcelona, Spain",
-      contract: "Full-time",
-      position: "Front-end engineer",
-      start: "Feb 2025",
-      end: "Present",
-      description: "Implementing high-performance cartography and data visualization tools for the Kanop SaaS platform.",
-      skills: [
-        "React",
-        "GCP",
-        "Framer Motion",
-        "Gitlab CI/CD",
-        "Agentic AI UI/UX",
-      ],
-    },
-    {
-      company: "Tauniqo.ai",
-      url: "https://tauniqo.ai/",
-      icon: tauniqo,
-      iconMin: tauniqoMin,
-      location: "Barcelona, Spain",
-      contract: "Full-time",
-      position: "Full-stack engineer",
-      start: "Jul 2024",
-      end: "Feb 2025",
+      company: 'Southern East Inc.',
+      url: '',
+      icon: seinc,
+      location: 'Ontario, Canada (Remote)',
+      contract: 'Full-time',
+      position: 'Full Stack Engineer',
+      start: 'Mar 2024',
+      end: 'Present',
       description: [
-        "Rewrote the entire front-end of the TalentYou platform using React, Redux, and i18n, greatly improving performance and user experience.",
-        "Containerized the back-end services using Docker and VS Code Dev Containers, reducing the onboarding time for new developers by up to 70%.",
-      ],
-      skills: ["React", "REST", "Docker", "Django", "Redux", "i18n"],
-    },
-    {
-      company: "Escape technologies",
-      url: "https://www.escape.tech/",
-      icon: escape,
-      iconMin: escapeMin,
-      location: "Paris, France",
-      contract: "Full-time",
-      position: "Full-stack engineer",
-      start: "Nov 2023",
-      end: "May 2024",
-      description: [
-        "Designed and built a Svelte component library based on the latest Material UI guidelines, greatly increasing development speed and design consistency.",
-        "Researched and implemented a contrast-aware palette generation algorithm which significantly improved aesthetics and accessibility.",
-        "Redesigned the company website to improve SEO and user experience, leading to a 30% increase in traffic and a 20% increase in conversion rate.",
-      ],
-      skills: ["R&D", "UI/UX", "Svelte", "GraphQL", "NodeJS", "Figma"],
-    },
-    {
-      company: "Kanop",
-      url: "https://www.kanop.io/",
-      icon: kanop,
-      iconMin: kanopMin,
-      location: "Paris, France",
-      contract: "Freelance & Internship",
-      position: "Front-end engineer",
-      start: "Jun 2022",
-      end: "Sep 2023",
-      description: [
-        "Pioneered the design and deployment of cutting-edge web applications using React TypeScript, D3.js, and Mapbox GL for advanced mapping and chart visualizations.",
-        "Collaborated with data scientists and UX designers to create impactful and user-friendly visualizations and interfaces.",
-        "Led major website overhauls improving navigation, aesthetics, and SEO, while ensuring optimal functionality and user experience.",
+        'Collaborated directly with the CTO to design and develop two groundbreaking AI solutions, resulting in a 35% increase in user engagement within six months post-launch.',
+        'Lead Developer for ChatSimple.ai, designing and developing a fully functional AI-powered chat application.',
+        'Contributed across multiple in-house products, showcasing full-stack expertise in frontend, backend, and cloud solutions.',
+        'Integrated business APIs, ensuring seamless data flow and enhanced automation across enterprise operations.',
       ],
       skills: [
-        "React",
-        "Node JS",
-        "DevOps",
-        "Mapbox.gl",
-        "Material UI",
-        "Adobe XD",
+        'Next.js',
+        'React',
+        'Node.js',
+        'AWS',
+        'Cloudflare',
+        'AI Integration',
       ],
     },
     {
-      company: "La Fresque du Climat",
-      url: "https://fresqueduclimat.org/",
-      icon: lfdc,
-      iconMin: lfdcMin,
-      location: "Toulouse, France",
-      contract: "Volunteering",
-      position: "Facilitator",
-      start: "Sept 2021",
-      end: "Jun 2022",
-      description:
-        "Facilitated workshops on climate change awareness in high schools and universities.",
-      skills: ["Public speaking", "Climate change awareness", "Teamwork"],
+      company: 'Jobs Territory',
+      url: '',
+      icon: jtr,
+      location: 'Bengaluru, Karnataka',
+      contract: 'Internship',
+      position: 'Software Development Engineer / Intern',
+      start: 'Aug 2022',
+      end: 'Feb 2024',
+      description: [
+        'Designed and implemented a job portal frontend using Figma, React, and Next.js, transforming wireframes into functional interfaces.',
+        'Integrated third-party APIs for job listings, location-based search, and authentication, improving platform accessibility.',
+      ],
+      skills: ['React', 'Next.js', 'Figma', 'API Integration'],
+    },
+    {
+      company: 'Tech XR',
+      url: '',
+      icon: txr,
+      location: 'Bhopal, MP',
+      contract: 'Full-time',
+      position: 'Software Development Engineer - 1',
+      start: 'Mar 2022',
+      end: 'May 2022',
+      description: [
+        'Collaborated with cross-functional teams to develop and launch an LMS (Learning Management System) and high-performance landing pages.',
+      ],
+      skills: ['LMS', 'Landing Pages', 'Team Collaboration'],
+    },
+  ],
+  work: [
+    {
+      company: 'RadioDao',
+      url: 'https://radiodao.xyz',
+      icon: radio,
+      location: 'Remote',
+      contract: 'Community',
+      position: 'Contributor',
+      start: 'Jul 2024',
+      end: 'Present',
+      description: [
+        'Contributing to decentralized radio streaming DAO on Solana.',
+        'Governance tooling, streaming incentives, listener rewards.',
+      ],
+      skills: ['Solana', 'Anchor', 'React', 'DAO tooling'],
+    },
+    {
+      company: 'Bodo Ats',
+      url: 'https://bodo-landing.vercel.app/',
+      icon: bodo,
+      location: 'Remote',
+      contract: 'Contract',
+      position: 'Fullstack Developer',
+      start: 'Jan 2024',
+      end: 'Present',
+      description: [
+        'Built multi-tenant ATS with organization creation and RBAC.',
+        'Implemented Google auth, job posting, and candidate pipeline.',
+      ],
+      skills: ['Next.js', 'NeonDB', 'Tailwind', 'Auth.js', 'Clerk'],
+    },
+    {
+      company: 'Bestopenjobs.com',
+      url: 'https://bestopenjobs.com',
+      icon: openjobs,
+      location: 'Remote',
+      contract: 'Founder',
+      position: 'Founder',
+      start: 'Feb 2024',
+      end: 'Present',
+      description: [
+        'Launched SEO-focused job board for open startup roles.',
+        'Integrated GSC, GA4, and automated sitemap ping.',
+      ],
+      skills: ['Next.js', 'SEO', 'PostgreSQL', 'Vercel', 'Typescript'],
+    },
+    {
+      company: 'Airdropalert.fyi',
+      url: 'https://airdropalert.fyi',
+      icon: airdrop,
+      location: 'Remote',
+      contract: 'Freelance',
+      position: 'Frontend Developer',
+      start: 'Mar 2024',
+      end: 'Present',
+      description: [
+        'Developed frontend for Web3 airdrop alerting DApp.',
+        'Wallet connect, claim tracker, and Dune analytics dashboard.',
+      ],
+      skills: ['Next.js', 'Wagmi', 'Viem', 'Tailwind', 'Thirdweb'],
+    },
+    {
+      company: 'TradeOs',
+      url: 'https://tradeos.netlify.app',
+      icon: tradeos,
+      location: 'Remote',
+      contract: 'Contract',
+      position: 'Smart Contract Engineer',
+      start: 'Jun 2024',
+      end: 'Present',
+      description: [
+        'Built synthetic asset protocol for IPL teams and football clubs.',
+        'Fractional trading contracts, bonding curve pricing.',
+      ],
+      skills: ['Solidity', 'Foundry', 'Arbitrum', 'Typechain', 'Hardhat'],
+    },
+    {
+      company: 'Suprrlink',
+      url: 'https://suprrlink.netlify.app',
+      icon: suprr,
+      location: 'Remote',
+      contract: 'Freelance',
+      position: 'Fullstack Dev',
+      start: 'May 2024',
+      end: 'Present',
+      description: [
+        'Created dynamic link shortener with custom OG image generation.',
+        'Built billing system with Paddle and theme-based image styles.',
+      ],
+      skills: ['Next.js', 'Paddle', 'Stripe', 'OG image API', 'SEO'],
     },
   ],
   languages: [
     {
-      name: "French",
-      level: "C2",
+      name: 'English',
+      level: 'C1',
+    },
+    {
+      name: 'Hindi',
+      level: 'C2',
       native: true,
-    },
-    {
-      name: "English",
-      level: "C1",
-    },
-    {
-      name: "Spanish",
-      level: "C1",
-    },
-    {
-      name: "Polish",
-      level: "B2",
-    },
-    {
-      name: "German",
-      level: "B1",
     },
   ],
   contact: {
-    location: "Barcelona, España",
-    email: "contact@bsodium.fr",
-    phone: "+33 7 83 79 29 25",
-    website: "https://www.bsodium.fr",
-    linkedin: "https://www.linkedin.com/in/bsodium/",
-    github: "https://www.github.com/bsodium",
-    researchgate: "https://www.researchgate.net/profile/Elliot-Negrel-Jerzy",
-    gitlab: "https://www.gitlab.com/bsodium",
-    deviantart: "https://www.deviantart.com/bsodium",
+    location: 'Indore, India',
+    email: 'divyanshpal300@outlook.com',
+    phone: '+91 6263965062',
+    website: 'https://www.divyanshpal.xyz',
+    linkedin: 'https://www.linkedin.com/in/divyanshpal343/',
+    github: 'https://www.github.com/divyansh343',
+    twitter: 'https://twitter.com/dangersdAmmo',
   },
+  skills: {
+    frontend: ['Next.js', 'React', 'Tailwind CSS'],
+    backend: ['Node.js', 'AWS Lambda', 'SQL', 'MongoDB'],
+    cloud: ['AWS', 'Cloudflare'],
+    tools: ['Postman', 'Figma', 'Supabase', 'GraphQL'],
+  },
+  projects: ['Bestopenjobs.com', 'AirdropAlert', 'Trade OS', 'Suprrlink'],
 };
 
 export default details;

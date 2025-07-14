@@ -1,6 +1,6 @@
 import { Avatar, Stack, Typography, useColorScheme } from "@mui/joy";
 import { useMemo } from "react";
-import vader from "@/assets/vader.webp";
+import vader from "@/assets/vader.png";
 import vaderMin from "@/assets/vader.min.webp";
 import { RiOpenSourceLine } from "react-icons/ri";
 import { Parallax } from "react-scroll-parallax";

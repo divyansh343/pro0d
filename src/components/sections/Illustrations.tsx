@@ -14,7 +14,7 @@ import planetLight from "@/assets/planet_light.webp";
 import skyMin from "@/assets/sky.min.webp";
 import sky from "@/assets/sky.webp";
 import spaceStationMin from "@/assets/space-station.min.webp";
-import spaceStation from "@/assets/space-station.webp";
+import spaceStation from "@/assets/space-station.png";
 import ProgressiveImage from "@/components/ProgressiveImage";
 import { useEffect } from "react";
 import { Parallax } from "react-scroll-parallax";
