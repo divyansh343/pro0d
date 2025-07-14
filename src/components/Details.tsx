@@ -142,7 +142,7 @@ export function Experience({ truncate = false }: { truncate?: boolean }) {
                 {items[0].icon ? (
                   <ProgressiveImage
                     src={items[0].icon}
-                    placeholder={items[0].iconMin}
+                    placeholder={items[0].icon}
                     alt={items[0].company}
                     style={{
                       width: "100%",
@@ -361,7 +361,7 @@ export function Projects({ truncate = false }: { truncate?: boolean }) {
                 {items[0].icon ? (
                   <ProgressiveImage
                     src={items[0].icon}
-                    placeholder={items[0].iconMin}
+                    placeholder={items[0].icon}
                     alt={items[0].company}
                     style={{
                       width: "100%",

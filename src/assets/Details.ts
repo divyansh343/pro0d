@@ -22,6 +22,8 @@ const details = {
   education: [
     {
       school: 'Raja Shankar Shah University',
+      url: 'https://cuc.ac.in/',
+      iconMin: rss,
       location: 'Chhindwara, MP',
       degree: 'Bachelor of Science',
       major: 'Computer Applications',
@@ -33,6 +35,8 @@ const details = {
     },
     {
       school: 'Google',
+      url: 'https://grow.google/intl/en_in/certificates/',
+      iconMin: google,    
       location: 'Online',
       degree: 'Certification',
       major: 'Digital Marketing (Unlocked Course)',
