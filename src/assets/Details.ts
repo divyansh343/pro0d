@@ -19,6 +19,7 @@ const details = {
   title: 'Full Stack Engineer',
   biography:
     'Full Stack Engineer with a passion for building scalable web applications and AI-driven solutions. Proficient in Next.js, React, Node.js, and AWS, with experience developing business automation tools and AI-integrated platforms. Adept at working across all development layers, optimizing performance, and integrating cloud-based technologies like AWS and Cloudflare to enhance efficiency.',
+    
   education: [
     {
       school: 'Raja Shankar Shah University',
