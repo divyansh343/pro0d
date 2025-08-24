@@ -6,7 +6,6 @@ import bodo from '@/assets/icons/bodo.png';
 import airdrop from '@/assets/icons/airdrop-alert.png';
 import tradeos from '@/assets/icons/tradeos.webp';
 import suprr from '@/assets/icons/suprr.png';
-import radio from '@/assets/icons/radio.png';
 import rss from '@/assets/icons/rss.png';
 import google from '@/assets/icons/google.jpg';
 
@@ -104,21 +103,21 @@ const details = {
     },
   ],
   work: [
-    {
-      company: 'RadioDao',
-      url: 'https://radiodao.xyz',
-      icon: radio,
-      location: 'Remote',
-      contract: 'Community',
-      position: 'Contributor',
-      start: 'Jul 2024',
-      end: 'Present',
-      description: [
-        'Contributing to decentralized radio streaming DAO on Solana.',
-        'Governance tooling, streaming incentives, listener rewards.',
-      ],
-      skills: ['Solana', 'Anchor', 'React', 'DAO tooling'],
-    },
+    // {
+    //   company: 'RadioDao',
+    //   url: 'https://radiodao.xyz',
+    //   icon: radio,
+    //   location: 'Remote',
+    //   contract: 'Community',
+    //   position: 'Contributor',
+    //   start: 'Jul 2024',
+    //   end: 'Present',
+    //   description: [
+    //     'Contributing to decentralized radio streaming DAO on Solana.',
+    //     'Governance tooling, streaming incentives, listener rewards.',
+    //   ],
+    //   skills: ['Solana', 'Anchor', 'React', 'DAO tooling'],
+    // },
     {
       company: 'Bodo Ats',
       url: 'https://bodo-landing.vercel.app/',
