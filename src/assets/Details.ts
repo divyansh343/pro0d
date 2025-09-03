@@ -78,7 +78,7 @@ const details = {
       icon: jtr,
       location: 'Bengaluru, Karnataka',
       contract: 'Internship',
-      position: 'Software Development Engineer / Intern',
+      position: 'Software Development Engineer',
       start: 'Aug 2022',
       end: 'Feb 2024',
       description: [
